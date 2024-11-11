@@ -13,3 +13,6 @@ body:not(:has(#loginPage:not(.hide))) .skinHeader {
   background: url(https://i.imgur.com/Ewk3Pqw.png) !important;
   background-size: cover !important;
 }
+
+/*Transparent top bar*/
+.skinHeader-withBackground {background-color: #20202000 !important;}
