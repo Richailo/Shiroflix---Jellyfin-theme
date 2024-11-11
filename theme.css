@@ -2,17 +2,3 @@
 body:has(#loginPage:not(.hide)) .skinHeader {
   display: none !important;
 }
-
-/*Show the top bar when the login page is hidden or absent*/
-body:not(:has(#loginPage:not(.hide))) .skinHeader {
-  display: flex !important;
-}
-
-/*Change login page background*/
-#loginPage {
-  background: url(https://i.imgur.com/Ewk3Pqw.png) !important;
-  background-size: cover !important;
-}
-
-/*Transparent top bar*/
-.skinHeader-withBackground {background-color: #20202000 !important;}
